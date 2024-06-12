@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+}
+.record{
+    height: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+.navbar-menu{
+    height: 20px;
+    padding: 10px;
+    background-color: #454545;
+    border-radius: 5px;
+    margin: 20px;
+    width: 100%;
+    position: relative;
+}
+.cast-nav{
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+
+}
+.text-nav{
+    position: absolute;
+    left: 60px;
+    top: 8px;
+    font-size: 16px;
+}
+.nav-btn{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border: none;
+    background-color: rgb(33, 133, 172);
+    padding: 6px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}

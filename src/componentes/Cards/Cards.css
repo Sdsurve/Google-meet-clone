@@ -1,0 +1,36 @@
+.Cards{
+    position: relative;
+    background-color: #454545;
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid  #454545;
+
+}
+.Cards:hover{
+    border: 2px solid rgb(35, 118, 183);
+}
+.Name{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.Image{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+.mic{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 20px;
+    background-color: #666666;
+    border-radius: 50%;
+    padding: 5px;
+}
