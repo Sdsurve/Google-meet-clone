@@ -4,35 +4,41 @@ import './index.css'
 import Footer from "./componentes/Footer/Footer"
 import Screen from './img/screen.png'
 import Navbar from './componentes/Navbar/Navbar'
+import img1 from './img/1.jpeg'
+import img2 from './img/2.jpeg'
+import img3 from './img/3.jpeg'
+import img4 from './img/4.jpeg'
+import img5 from './img/5.jpeg'
+import img6 from './img/6.jpeg'
 const MeetCards = [
   {
     StudentName: "Shashikant",
-    StudentImg: 'https://i.pravatar.cc/150?img=3',
+    StudentImg: img3,
     Micstate: true,
   },
   {
     StudentName: "Rutuja",
-    StudentImg: 'https://i.pravatar.cc/150?img=1',
+    StudentImg: img4,
     Micstate: false,
   },
   {
     StudentName: "Aman",
-    StudentImg: 'https://i.pravatar.cc/150?img=2',
+    StudentImg: img6,
     Micstate: false,
   },
   {
     StudentName: "Bhushan",
-    StudentImg: 'https://i.pravatar.cc/150?img=4',
+    StudentImg: img1,
     Micstate: true,
   },
   {
     StudentName: "Tejesvi",
-    StudentImg: 'https://i.pravatar.cc/150?img=5',
+    StudentImg: img5,
     Micstate: false,
   },
   {
     StudentName: "Siddharth",
-    StudentImg: 'https://i.pravatar.cc/150?img=33',
+    StudentImg: img2,
     Micstate: false,
   },
 
